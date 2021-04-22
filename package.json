@@ -3,6 +3,7 @@
 	"displayName": "Terminal Switcher",
 	"description": "Switch to a terminal window matching the current doc's git root when you change open doc",
 	"publisher": "flo-everett",
+	"repository":"https://github.com/MigratoryCoconuts/vscode-terminal-switcher",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.55.0"
