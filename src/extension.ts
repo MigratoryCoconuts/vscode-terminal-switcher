@@ -78,7 +78,7 @@ async function switchTerminal(textEditor: vscode.TextEditor | undefined) {
 		})
 	}
 
-	cwdTerm.show()
+	cwdTerm.show(true)
 }
 
 // this method is called when your extension is deactivated

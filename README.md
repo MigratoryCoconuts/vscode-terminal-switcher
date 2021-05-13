@@ -16,6 +16,10 @@ This will switch to the first open terminal that matches the git root it finds. 
 
 ## Release Notes
 
+### 1.0.1
+
+Terminal no longer takes focus after switching
+
 ### 1.0.0
 
 Initial release of Terminal Switcher
