@@ -4,7 +4,7 @@
 	"description": "Switch to a terminal window matching the current doc's git root when you change open doc",
 	"publisher": "flo-everett",
 	"repository":"https://github.com/MigratoryCoconuts/vscode-terminal-switcher",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
@@ -12,7 +12,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"workspaceContains:**/.git"
+		"workspaceContains:**/.git/**/*"
 	],
 	"main": "./out/extension.js",
 	"scripts": {

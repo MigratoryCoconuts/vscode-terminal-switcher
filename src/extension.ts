@@ -7,7 +7,7 @@ import * as cp from 'child_process';
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-
+	console.log("starting terminal switcher")
 	if (process.platform !== 'linux') {
 		vscode.window.showInformationMessage('Could not activate Terminal Switcher extension: Only available on linux');
 		return;
@@ -20,6 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 async function switchTerminal(textEditor: vscode.TextEditor | undefined) {
+	console.log("switch window")
 	if (!textEditor) return;
 	if (textEditor.document.isUntitled) return;
 
